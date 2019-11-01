@@ -138,10 +138,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@forbeslindesay/tsconfig@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@forbeslindesay/tsconfig/-/tsconfig-1.1.1.tgz#fa24b67fd35652db74d296f4ce748bddd2a3b48c"
-  integrity sha512-kdw5Vg/yCl5dc3iH7i80KOhI2yuHfNTh0mrNn0N0gj3VGz2CZh6SHfx4xJfWEF9qRrU01HfLjuyuZ6MeFdOQEw==
+"@forbeslindesay/tsconfig@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@forbeslindesay/tsconfig/-/tsconfig-2.0.0.tgz#71a8a92afb366ea7ca05fe46e68bc033060c2e2d"
+  integrity sha512-SqkFDsM1vgB5iXCjJKnnvYwIlQZhLfGjKQfmwp3PZjvqoDVbng76iQvppJAG1pX2nSmkPz8Z1rmEylXop/Ma8A==
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
