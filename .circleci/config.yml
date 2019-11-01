@@ -61,22 +61,6 @@ workflows:
             - node-12
             - publish-approval
 
-  monthly:
-    triggers:
-      - schedule:
-          cron: '0 0 1 * *'
-          <<: *only_master
-    jobs:
-      - unit-tests:
-          name: node-8
-          version: '8'
-      - unit-tests:
-          name: node-10
-          version: '10'
-      - unit-tests:
-          name: node-12
-          version: '12'
-
 jobs:
   unit-tests:
     parameters:
