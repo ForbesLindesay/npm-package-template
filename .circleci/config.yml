@@ -44,17 +44,17 @@ workflows:
 
       - publish-dry-run:
           <<: *only_master
-          context: master
+          context: common-env
 
       - publish-approval:
           type: approval
-          context: master
+          context: common-env
           requires:
             - publish-dry-run
 
       - publish:
           <<: *only_master
-          context: master
+          context: common-env
           requires:
             - node-8
             - node-10
