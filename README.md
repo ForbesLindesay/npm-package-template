@@ -6,7 +6,7 @@ A template for npm packages built in TypeScript
 
 1. Hit "Use This Template" to create the repository
 1. Enable [CircleCI](https://circleci.com/add-projects/gh/ForbesLindesay)
-1. Enable [semantic-pull-requests](https://github.com/probot/semantic-pull-requests)
+1. Enable [semantic-pull-requests](https://github.com/apps/semantic-pull-requests)
 1. In Settings
    1. Disable "Wikis"
    1. Disable "Projects"
