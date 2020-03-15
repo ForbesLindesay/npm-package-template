@@ -56,12 +56,10 @@
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
       "prettier --write",
-      "tslint -t verbose -p .",
-      "git add"
+      "tslint -t verbose -p ."
     ],
     "*.{md,json,yaml,js,jsx}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   }
 }
