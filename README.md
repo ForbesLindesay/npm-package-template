@@ -2,6 +2,9 @@
 
 A template for npm packages built in TypeScript
 
+[![Rolling Versions](https://img.shields.io/badge/Rolling%20Versions-Enabled-brightgreen)](https://rollingversions.com/ForbesLindesay/npm-package-template)
+
+
 ## Setting Up the New Repo
 
 1. Hit "Use This Template" to create the repository
