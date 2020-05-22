@@ -17,8 +17,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm install
-      - run: npm test
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
+      - run: yarn test
 
   publish:
     runs-on: ubuntu-latest
@@ -29,7 +30,8 @@ jobs:
         with:
           node-version: 12.x
           registry-url: 'https://registry.npmjs.org'
-      - run: npm install
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
       - run: npx rollingversions publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
