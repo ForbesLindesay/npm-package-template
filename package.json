@@ -61,5 +61,8 @@
     "*.{md,json,yaml,js,jsx}": [
       "prettier --write"
     ]
+  },
+  "engines": {
+    "node": ">=0.10.0"
   }
 }
