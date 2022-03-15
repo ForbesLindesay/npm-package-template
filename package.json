@@ -13,8 +13,7 @@
     "lint:fix": "eslint --fix --config .eslintrc-ts.js --no-eslintrc --ext .ts,.tsx src",
     "prettier:write": "prettier --ignore-path .gitignore --write './**/*.{md,json,yaml,js,jsx,ts,tsx}'",
     "prettier:check": "prettier --ignore-path .gitignore --list-different './**/*.{md,json,yaml,js,jsx,ts,tsx}'",
-    "test": "jest",
-    "ci:test": "jest --silent --maxWorkers=2"
+    "test": "jest"
   },
   "dependencies": {},
   "devDependencies": {
