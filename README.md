@@ -9,16 +9,17 @@ A template for npm packages built in TypeScript
 ## Setting Up the New Repo
 
 1. Hit "Use This Template" to create the repository
-1. Enable [CircleCI](https://circleci.com/add-projects/gh/ForbesLindesay)
-1. Enable [Change Log Version](https://changelogversion.com) using [My Change Log Version Installation](https://github.com/settings/installations/7328191)
+1. Enable [Rolling Versions](https://rollingversions.com) using [My Rolling Versions Installation](https://github.com/settings/installations/7328191)
 1. In Settings
    1. Disable "Wikis"
    1. Disable "Projects"
    1. Disable "Allow merge commits"
    1. Disable "Allow rebase merging"
+   1. Enable "Always suggest updating pull request branches"
+   1. Enable "Allow auto-merge"
    1. Enable "Automatically delete head branches"
 1. Create a new branch
-1. Commit initial code to the branch (be sure to replace all refernces to npm-package-template, and remove these instructions from the README)
+1. Commit initial code to the branch (be sure to replace all references to npm-package-template, and remove these instructions from the README)
 1. Push the new branch and create a PR
 1. In Settings -> Branch Protection, create a new rule
    1. Use "main" as the branch name pattern
