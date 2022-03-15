@@ -2,8 +2,9 @@
 
 A template for npm packages built in TypeScript
 
-[![Rolling Versions](https://img.shields.io/badge/Rolling%20Versions-Enabled-brightgreen)](https://rollingversions.com/ForbesLindesay/npm-package-template)
-
+[![Build Status](https://img.shields.io/github/workflow/status/ForbesLindesay/npm-package-template/Test/master?style=for-the-badge)](https://github.com/ForbesLindesay/npm-package-template/actions?query=workflow%3ATest+branch%3Amaster)
+[![Rolling Versions](https://img.shields.io/badge/Rolling%20Versions-Enabled-brightgreen?style=for-the-badge)](https://rollingversions.com/ForbesLindesay/npm-package-template)
+[![NPM version](https://img.shields.io/npm/v/@forbeslindesay/npm-package-template?style=for-the-badge)](https://www.npmjs.com/package/@forbeslindesay/npm-package-template)
 
 ## Setting Up the New Repo
 
