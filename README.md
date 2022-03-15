@@ -2,7 +2,7 @@
 
 A template for npm packages built in TypeScript
 
-[![Build Status](https://img.shields.io/github/workflow/status/ForbesLindesay/npm-package-template/Test/master?style=for-the-badge)](https://github.com/ForbesLindesay/npm-package-template/actions?query=workflow%3ATest+branch%3Amaster)
+[![Build Status](https://img.shields.io/github/workflow/status/ForbesLindesay/npm-package-template/Test/main?style=for-the-badge)](https://github.com/ForbesLindesay/npm-package-template/actions?query=workflow%3ATest+branch%3Amain)
 [![Rolling Versions](https://img.shields.io/badge/Rolling%20Versions-Enabled-brightgreen?style=for-the-badge)](https://rollingversions.com/ForbesLindesay/npm-package-template)
 [![NPM version](https://img.shields.io/npm/v/@forbeslindesay/npm-package-template?style=for-the-badge)](https://www.npmjs.com/package/@forbeslindesay/npm-package-template)
 
@@ -21,7 +21,7 @@ A template for npm packages built in TypeScript
 1. Commit initial code to the branch (be sure to replace all refernces to npm-package-template, and remove these instructions from the README)
 1. Push the new branch and create a PR
 1. In Settings -> Branch Protection, create a new rule
-   1. Use "master" as the branch name pattern
+   1. Use "main" as the branch name pattern
    1. Enable "Require status checks to pass before merging"
    1. Select the unit tests and changelog as required
    1. Enable "Include administrators"
